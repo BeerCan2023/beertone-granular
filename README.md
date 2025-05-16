@@ -8,6 +8,8 @@ An advanced granular synthesizer developed in Python.
 
 BeerTone Granular is a granular synthesizer offering advanced real-time sound manipulation capabilities. This project allows loading audio samples and applying various granular effects to create unique sound textures.
 
+![BeerTone Granular Screenshot](Capture.jpg)
+
 ## Features
 
 - Audio file loading (WAV, MP3, FLAC, etc.)
