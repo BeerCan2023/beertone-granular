@@ -1,6 +1,6 @@
 # BeerTone Granular
 
-![BeerTone Granular Logo](BeerToneGranular_icon.png)
+<img src="BeerToneGranular_icon.png" alt="BeerTone Granular Logo" width="150">
 
 An advanced granular synthesizer developed in Python.
 
