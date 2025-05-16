@@ -2,60 +2,72 @@
 
 ![BeerTone Granular Logo](BeerToneGranular_icon.png)
 
-Un synthétiseur granulaire avancé développé en Python.
+An advanced granular synthesizer developed in Python.
 
 ## Description
 
-BeerTone Granular est un synthétiseur granulaire offrant des fonctionnalités avancées de manipulation sonore en temps réel. Ce projet permet de charger des échantillons audio et d'appliquer divers effets granulaires pour créer des textures sonores uniques.
+BeerTone Granular is a granular synthesizer offering advanced real-time sound manipulation capabilities. This project allows loading audio samples and applying various granular effects to create unique sound textures.
 
-## Fonctionnalités
+## Features
 
-- Chargement de fichiers audio (WAV, MP3, FLAC, etc.)
-- Synthèse granulaire avec contrôle précis des paramètres
-- Interface utilisateur intuitive
-- Enregistrement des paramètres
-- Support de la MIDI
+- Audio file loading (WAV, MP3, FLAC, etc.)
+- Granular synthesis with precise parameter control
+- Intuitive user interface
+- Parameter presets
+- MIDI support
 
-## Prérequis
+## Prerequisites
 
-- Python 3.7 ou supérieur
-- Les dépendances listées dans `requirements.txt`
+- Python 3.7 or higher
+- Dependencies listed in `requirements.txt`
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository:
    ```bash
-   git clone https://github.com/votre-utilisateur/beertone-granular.git
+   git clone https://github.com/BeerCan2023/beertone-granular.git
    cd beertone-granular
    ```
 
-2. Installez les dépendances :
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Utilisation
+## Usage
 
-Lancez l'application avec :
+Run the application with:
 
 ```bash
 python main.py
 ```
 
-## Structure du projet
+## Project Structure
 
-- `main.py` - Point d'entrée de l'application
-- `gui_main.py` - Interface utilisateur principale
-- `custom_dial.py` - Composants d'interface personnalisés
-- `splash/` - Écrans de démarrage
-- `splash_launcher.py` - Lanceur avec écran de démarrage
+- `main.py` - Application entry point
+- `gui_main.py` - Main user interface
+- `custom_dial.py` - Custom UI components
+- `splash/` - Splash screens
+- `splash_launcher.py` - Launcher with splash screen
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Auteur
+## Author
 
 Pierre Aumont - [@BeerCan2023](https://github.com/BeerCan2023)
 
+## Acknowledgments
 
+This project makes use of the following open-source libraries:
+
+- [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) - For the graphical user interface
+- [NumPy](https://numpy.org/) - For numerical computing
+- [Matplotlib](https://matplotlib.org/) - For visualization components
+- [Librosa](https://librosa.org/) - For audio analysis
+- [SciPy](https://www.scipy.org/) - For scientific computing
+- [SoundFile](https://pysoundfile.readthedocs.io/) - For audio file I/O
+- [SoundDevice](https://python-sounddevice.readthedocs.io/) - For real-time audio playback
+
+Special thanks to the open-source community for their invaluable contributions to these projects.
