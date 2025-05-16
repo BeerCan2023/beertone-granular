@@ -56,9 +56,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## Auteur
 
-Votre nom - [@votre-compte](https://github.com/votre-compte)
+Pierre Aumont - [@BeerCan2023](https://github.com/BeerCan2023)
 
-## Remerciements
 
-- Remerciements spéciaux à...
-- Bibliothèques utilisées : PyQt5, numpy, etc.
